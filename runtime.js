@@ -34,6 +34,7 @@ function getSizedArray(size){
 }
 
 
+
 const tinyArray = getSizedArray(10);
 const smallArray = getSizedArray(100);
 const mediumArray = getSizedArray(1000);
