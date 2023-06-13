@@ -2,23 +2,42 @@
 // Write a function that takes in an array of numbers. The function should return True if any two numberss in list sum to 0, and false otherwise.
 
 // For example:
+function addToZero(nums) {
+  for (let i = 0; i < nums.length; i++) {
+    for (let n = 0; n < nums.length; n++) {
+      if (nums[i] + nums[n] === 0) {
+        return console.log(true);
+      }
+    }
+  }
+  return console.log(false);
+}
 
-// addToZero([]);
+addToZero([1, 2, 3, -2]);
+// -> True
+
+addToZero([]);
 // -> False
 
-// addToZero([1]);
+addToZero([1]);
 // -> False
 
-// addToZero([1, 2, 3]);
+addToZero([1, 2, 3]);
 // -> False
 
-// addToZero([1, 2, 3, -2]);
+addToZero([1, 2, 3, -2]);
 // -> True
 
 // 2) Unique Characters
 // Write a function that takes in a single word, as a string. It should return True if that word contains only unique characters. Return False otherwise.
 
 // For example:
+function hasUniqueChars(word) {
+  for (let i = 0; i < word.length; i++) {
+    let unique = [];
+    word[i].indexOf()
+  }
+}
 
 // hasUniqueChars("Monday");
 // -> True
